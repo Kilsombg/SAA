@@ -38,11 +38,11 @@ int main(){
     cout << "Write number between 0 and 20: ";
     cin >> n;
 
-/*
+
     if(n < 0 || n > 20) {
             cout << "Incorrect n.";
             return 0;
-            } */
+            }
 
     cout  << recFunc(n);
     return 0;
