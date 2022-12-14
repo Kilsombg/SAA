@@ -23,10 +23,10 @@ i= 9 func(i) = 24603
 
 int a[N];
 
-long long recFunc(int n) {
+long recFunc(int n) {
     if(a[n]) return a[n];
 
-    return a[N] = 2*recFunc(n-1) + 3*recFunc(n-2);
+    return 2*recFunc(n-1) + 3*recFunc(n-2);
 }
 
 
